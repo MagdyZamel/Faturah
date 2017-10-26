@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import MBProgressHUD
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,FaturahTransactionManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,59 +17,39 @@ class ViewController: UIViewController {
         transaction.merchantCode = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx1009"
         transaction.secureKey = "c784bdf6-1a06-41ab-8b31-3949752ab1f7"
         transaction.urlScheme = "faturah123"
-                //Create Order
-                let order = FaturahOrder()
-                order.add(
-                    FaturahOrderItem(
-                    id: "1",
-                    andName: "Nokia Mobile",
-                    andDescription: "Nokia Mobile 6600 Silver Color",
-                    andQuantity: NSNumber(integerLiteral: 1),
-                    andPrice: NSNumber(integerLiteral: 10))
-                )
-                order.add(
-                    FaturahOrderItem(
-                    id: "1",
-                    andName: "Nokia Mobile",
-                    andDescription: "Nokia Mobile 6600 Silver Color",
-                    andQuantity: 1,
-                    andPrice: 10)
-                )
-                order.add(
-                    FaturahOrderItem(
-                    id: "1",
-                    andName: "Nokia Mobile",
-                    andDescription: "Nokia Mobile 6600 Silver Color",
-                    andQuantity: 1,
-                    andPrice: 10)
-                )
-        //        andName:@"LG LCD"
-        //        andDescription:@"LG LCD 37 Inch Wide"
-        //        andQuantity:[NSNumber numberWithInt:1]
-        //        andPrice:[NSNumber numberWithInt:10]]];
-        //        [order addItem:[FaturahOrderItem itemWithID:@"3"
-        //        andName:@"Laptop DELL"
-        //        andDescription:@"Laptop DELL Inspiron 5012 Black Color"
-        //        andQuantity:[NSNumber numberWithInt:2]
-        //        andPrice:[NSNumber numberWithInt:15]]];
-        //        [order setOrderDeliveryCharge:[NSNumber numberWithInt:5]];
-        //        [order setOrderCustomerName:@"John Doe"];
-        //        [order setOrderCustomerEmail:@"email@website.com"];
-        //        [order setOrderCustomerPhone:@"0123456789"];
-        //        [order setOrderLanguage:@"ar"];
-        //
-        //        //Set Order
-        //        [transaction setOrder:order];
-        //
-        //        //View Hud
-        //        [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-        //
-        //        //Prepare Transaction
-        //        [[FaturahTransactionManager sharedManager] prepareTranscation:transaction
-        //        withDelegate:self];
+        //Create Order
+        let order = FaturahOrder()
+        order.add(
+            FaturahOrderItem(
+                id: "1",
+                andName: "Nokia Mobile",
+                andDescription: "Nokia Mobile 6600 Silver Color",
+                andQuantity: NSNumber(integerLiteral: 1),
+                andPrice: NSNumber(integerLiteral: 10))
+        )
+        order.orderDeliveryCharge = NSNumber(integerLiteral: 5)
+        order.orderCustomerName = "John Doe"
+        order.orderCustomerEmail = "email@website.com"
+        order.orderCustomerPhone = "0123456789"
+        order.orderLanguage = "ar"
+        transaction.order = order
+        MBProgressHUD.showAdded(to: self.view, animated: true)
+        FaturahTransactionManager.shared().prepareTranscation(transaction, with: self)
 
     }
+    func transactionManagerDidFinishTransactionPreparation(_ transaction: FaturahTransaction!, withError error: Error!) {
+        MBProgressHUD.hide(for: self.view, animated: true)
+        if((error) != nil) {
+            NSLog("Error Occured During Transaction Preparation \(error!.localizedDescription)");
+        } else {
+            FaturahTransactionManager.shared().startPayement(for: transaction, from: self, with: self)
+        }
 
+    }
+    func transactionManagerDidFinishPayment(with status: FaturahPaymentStatus, andError error: Error!) {
+        print(error)
+    }
 
 }
+
 

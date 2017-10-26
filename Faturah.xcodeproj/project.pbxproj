@@ -101,7 +101,7 @@
 		234D2E381F9F475400DF3DD3 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		234D2E391F9F475400DF3DD3 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		234D2E501F9F49A300DF3DD3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		23F55BF11F9F449900503410 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F55BF11F9F449900503410 /* Faturah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faturah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F55BF41F9F449900503410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23F55BF61F9F449900503410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23F55BF91F9F449900503410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -291,7 +291,7 @@
 		23F55BF21F9F449900503410 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23F55BF11F9F449900503410 /* test.app */,
+				23F55BF11F9F449900503410 /* Faturah.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -333,9 +333,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23F55BF01F9F449900503410 /* test */ = {
+		23F55BF01F9F449900503410 /* Faturah */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23F55C031F9F449900503410 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 23F55C031F9F449900503410 /* Build configuration list for PBXNativeTarget "Faturah" */;
 			buildPhases = (
 				ECE91A1A2D82B364C02E28E8 /* [CP] Check Pods Manifest.lock */,
 				23F55BED1F9F449900503410 /* Sources */,
@@ -348,9 +348,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = Faturah;
 			productName = test;
-			productReference = 23F55BF11F9F449900503410 /* test.app */;
+			productReference = 23F55BF11F9F449900503410 /* Faturah.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -369,7 +369,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23F55BEC1F9F449900503410 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 23F55BEC1F9F449900503410 /* Build configuration list for PBXProject "Faturah" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -382,7 +382,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23F55BF01F9F449900503410 /* test */,
+				23F55BF01F9F449900503410 /* Faturah */,
 			);
 		};
 /* End PBXProject section */
@@ -650,7 +650,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23F55BEC1F9F449900503410 /* Build configuration list for PBXProject "test" */ = {
+		23F55BEC1F9F449900503410 /* Build configuration list for PBXProject "Faturah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23F55C011F9F449900503410 /* Debug */,
@@ -659,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23F55C031F9F449900503410 /* Build configuration list for PBXNativeTarget "test" */ = {
+		23F55C031F9F449900503410 /* Build configuration list for PBXNativeTarget "Faturah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23F55C041F9F449900503410 /* Debug */,
