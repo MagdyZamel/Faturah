@@ -7,111 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		234D2DF11F9F466100DF3DD3 /* FaturahOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2DEA1F9F466100DF3DD3 /* FaturahOrder.m */; };
-		234D2DF21F9F466100DF3DD3 /* FaturahOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2DEC1F9F466100DF3DD3 /* FaturahOrderItem.m */; };
-		234D2DF31F9F466100DF3DD3 /* FaturahTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2DEE1F9F466100DF3DD3 /* FaturahTransaction.m */; };
-		234D2DF41F9F466100DF3DD3 /* FaturahTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2DF01F9F466100DF3DD3 /* FaturahTransactionManager.m */; };
-		234D2E3A1F9F475400DF3DD3 /* SKGenericConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E031F9F475400DF3DD3 /* SKGenericConverter.m */; };
-		234D2E3B1F9F475400DF3DD3 /* SKNSArrayConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E051F9F475400DF3DD3 /* SKNSArrayConverter.m */; };
-		234D2E3C1F9F475400DF3DD3 /* SKNSDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E071F9F475400DF3DD3 /* SKNSDateConverter.m */; };
-		234D2E3D1F9F475400DF3DD3 /* SKNSSetConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E091F9F475400DF3DD3 /* SKNSSetConverter.m */; };
-		234D2E3E1F9F475400DF3DD3 /* SKNSURLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E0B1F9F475400DF3DD3 /* SKNSURLConverter.m */; };
-		234D2E3F1F9F475400DF3DD3 /* SKSimpleConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E0D1F9F475400DF3DD3 /* SKSimpleConverter.m */; };
-		234D2E401F9F475400DF3DD3 /* SKPropertyFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E111F9F475400DF3DD3 /* SKPropertyFinder.m */; };
-		234D2E411F9F475400DF3DD3 /* SKArrayMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E141F9F475400DF3DD3 /* SKArrayMapping.m */; };
-		234D2E421F9F475400DF3DD3 /* SKDynamicAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E161F9F475400DF3DD3 /* SKDynamicAttribute.m */; };
-		234D2E431F9F475400DF3DD3 /* SKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E181F9F475400DF3DD3 /* SKObjectMapping.m */; };
-		234D2E441F9F475400DF3DD3 /* SKPropertyAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E1A1F9F475400DF3DD3 /* SKPropertyAggregator.m */; };
-		234D2E451F9F475400DF3DD3 /* SKCustomInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E1D1F9F475400DF3DD3 /* SKCustomInitialize.m */; };
-		234D2E461F9F475400DF3DD3 /* SKCustomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E1F1F9F475400DF3DD3 /* SKCustomParser.m */; };
-		234D2E471F9F475400DF3DD3 /* SKAttributeSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E221F9F475400DF3DD3 /* SKAttributeSetter.m */; };
-		234D2E481F9F475400DF3DD3 /* SKDataObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E241F9F475400DF3DD3 /* SKDataObjectMapping.m */; };
-		234D2E491F9F475400DF3DD3 /* SKParserConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E261F9F475400DF3DD3 /* SKParserConfiguration.m */; };
-		234D2E4A1F9F475400DF3DD3 /* SKDictionaryRearranger.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E2A1F9F475400DF3DD3 /* SKDictionaryRearranger.m */; };
-		234D2E4B1F9F475400DF3DD3 /* SKReferenceKeyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E2C1F9F475400DF3DD3 /* SKReferenceKeyParser.m */; };
-		234D2E4C1F9F475400DF3DD3 /* SKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E301F9F475400DF3DD3 /* SKData.m */; };
-		234D2E4D1F9F475400DF3DD3 /* SKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E321F9F475400DF3DD3 /* SKRequest.m */; };
-		234D2E4E1F9F475400DF3DD3 /* SKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E341F9F475400DF3DD3 /* SKService.m */; };
-		234D2E4F1F9F475400DF3DD3 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 234D2E391F9F475400DF3DD3 /* GDataXMLNode.m */; };
-		23F55BF51F9F449900503410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F55BF41F9F449900503410 /* AppDelegate.swift */; };
-		23F55BF71F9F449900503410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F55BF61F9F449900503410 /* ViewController.swift */; };
-		23F55BFA1F9F449900503410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F55BF81F9F449900503410 /* Main.storyboard */; };
-		23F55BFC1F9F449900503410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F55BFB1F9F449900503410 /* Assets.xcassets */; };
-		23F55BFF1F9F449900503410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F55BFD1F9F449900503410 /* LaunchScreen.storyboard */; };
-		771C536F899F79514174D70D /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E787C838226DCE987EBC5C /* Pods_test.framework */; };
+		235543171FA2917900D4C0CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235542C81FA2917900D4C0CA /* AppDelegate.swift */; };
+		235543181FA2917900D4C0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235542C91FA2917900D4C0CA /* Assets.xcassets */; };
+		235543191FA2917900D4C0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235542CA1FA2917900D4C0CA /* LaunchScreen.storyboard */; };
+		2355431A1FA2917900D4C0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235542CC1FA2917900D4C0CA /* Main.storyboard */; };
+		2355431B1FA2917900D4C0CA /* FaturahOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542D21FA2917900D4C0CA /* FaturahOrder.m */; };
+		2355431C1FA2917900D4C0CA /* FaturahOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542D41FA2917900D4C0CA /* FaturahOrderItem.m */; };
+		2355431D1FA2917900D4C0CA /* FaturahTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542D61FA2917900D4C0CA /* FaturahTransaction.m */; };
+		2355431E1FA2917900D4C0CA /* FaturahTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542D81FA2917900D4C0CA /* FaturahTransactionManager.m */; };
+		2355431F1FA2917900D4C0CA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 235542D91FA2917900D4C0CA /* Info.plist */; };
+		235543201FA2917900D4C0CA /* SKGenericConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542DE1FA2917900D4C0CA /* SKGenericConverter.m */; };
+		235543211FA2917900D4C0CA /* SKNSArrayConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542E01FA2917900D4C0CA /* SKNSArrayConverter.m */; };
+		235543221FA2917900D4C0CA /* SKNSDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542E21FA2917900D4C0CA /* SKNSDateConverter.m */; };
+		235543231FA2917900D4C0CA /* SKNSSetConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542E41FA2917900D4C0CA /* SKNSSetConverter.m */; };
+		235543241FA2917900D4C0CA /* SKNSURLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542E61FA2917900D4C0CA /* SKNSURLConverter.m */; };
+		235543251FA2917900D4C0CA /* SKSimpleConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542E81FA2917900D4C0CA /* SKSimpleConverter.m */; };
+		235543261FA2917900D4C0CA /* SKPropertyFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542EC1FA2917900D4C0CA /* SKPropertyFinder.m */; };
+		235543271FA2917900D4C0CA /* SKArrayMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542EF1FA2917900D4C0CA /* SKArrayMapping.m */; };
+		235543281FA2917900D4C0CA /* SKDynamicAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542F11FA2917900D4C0CA /* SKDynamicAttribute.m */; };
+		235543291FA2917900D4C0CA /* SKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542F31FA2917900D4C0CA /* SKObjectMapping.m */; };
+		2355432A1FA2917900D4C0CA /* SKPropertyAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542F51FA2917900D4C0CA /* SKPropertyAggregator.m */; };
+		2355432B1FA2917900D4C0CA /* SKCustomInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542F81FA2917900D4C0CA /* SKCustomInitialize.m */; };
+		2355432C1FA2917900D4C0CA /* SKCustomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542FA1FA2917900D4C0CA /* SKCustomParser.m */; };
+		2355432D1FA2917900D4C0CA /* SKAttributeSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542FD1FA2917900D4C0CA /* SKAttributeSetter.m */; };
+		2355432E1FA2917900D4C0CA /* SKDataObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 235542FF1FA2917900D4C0CA /* SKDataObjectMapping.m */; };
+		2355432F1FA2917900D4C0CA /* SKParserConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 235543011FA2917900D4C0CA /* SKParserConfiguration.m */; };
+		235543301FA2917900D4C0CA /* SKDictionaryRearranger.m in Sources */ = {isa = PBXBuildFile; fileRef = 235543051FA2917900D4C0CA /* SKDictionaryRearranger.m */; };
+		235543311FA2917900D4C0CA /* SKReferenceKeyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 235543071FA2917900D4C0CA /* SKReferenceKeyParser.m */; };
+		235543321FA2917900D4C0CA /* SKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355430B1FA2917900D4C0CA /* SKData.m */; };
+		235543331FA2917900D4C0CA /* SKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355430D1FA2917900D4C0CA /* SKRequest.m */; };
+		235543341FA2917900D4C0CA /* SKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355430F1FA2917900D4C0CA /* SKService.m */; };
+		235543351FA2917900D4C0CA /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 235543141FA2917900D4C0CA /* GDataXMLNode.m */; };
+		235543361FA2917900D4C0CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235543161FA2917900D4C0CA /* ViewController.swift */; };
+		C901D1212EC0B366572AE4F7 /* Pods_Faturah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781F39EC5F36577753ED78AD /* Pods_Faturah.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		234D2DE81F9F466100DF3DD3 /* Faturah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faturah.h; sourceTree = "<group>"; };
-		234D2DE91F9F466100DF3DD3 /* FaturahOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahOrder.h; sourceTree = "<group>"; };
-		234D2DEA1F9F466100DF3DD3 /* FaturahOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahOrder.m; sourceTree = "<group>"; };
-		234D2DEB1F9F466100DF3DD3 /* FaturahOrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahOrderItem.h; sourceTree = "<group>"; };
-		234D2DEC1F9F466100DF3DD3 /* FaturahOrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahOrderItem.m; sourceTree = "<group>"; };
-		234D2DED1F9F466100DF3DD3 /* FaturahTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahTransaction.h; sourceTree = "<group>"; };
-		234D2DEE1F9F466100DF3DD3 /* FaturahTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahTransaction.m; sourceTree = "<group>"; };
-		234D2DEF1F9F466100DF3DD3 /* FaturahTransactionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahTransactionManager.h; sourceTree = "<group>"; };
-		234D2DF01F9F466100DF3DD3 /* FaturahTransactionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahTransactionManager.m; sourceTree = "<group>"; };
-		234D2E021F9F475400DF3DD3 /* SKGenericConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGenericConverter.h; sourceTree = "<group>"; };
-		234D2E031F9F475400DF3DD3 /* SKGenericConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKGenericConverter.m; sourceTree = "<group>"; };
-		234D2E041F9F475400DF3DD3 /* SKNSArrayConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSArrayConverter.h; sourceTree = "<group>"; };
-		234D2E051F9F475400DF3DD3 /* SKNSArrayConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSArrayConverter.m; sourceTree = "<group>"; };
-		234D2E061F9F475400DF3DD3 /* SKNSDateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSDateConverter.h; sourceTree = "<group>"; };
-		234D2E071F9F475400DF3DD3 /* SKNSDateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSDateConverter.m; sourceTree = "<group>"; };
-		234D2E081F9F475400DF3DD3 /* SKNSSetConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSSetConverter.h; sourceTree = "<group>"; };
-		234D2E091F9F475400DF3DD3 /* SKNSSetConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSSetConverter.m; sourceTree = "<group>"; };
-		234D2E0A1F9F475400DF3DD3 /* SKNSURLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSURLConverter.h; sourceTree = "<group>"; };
-		234D2E0B1F9F475400DF3DD3 /* SKNSURLConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSURLConverter.m; sourceTree = "<group>"; };
-		234D2E0C1F9F475400DF3DD3 /* SKSimpleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSimpleConverter.h; sourceTree = "<group>"; };
-		234D2E0D1F9F475400DF3DD3 /* SKSimpleConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSimpleConverter.m; sourceTree = "<group>"; };
-		234D2E0E1F9F475400DF3DD3 /* SKValueConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKValueConverter.h; sourceTree = "<group>"; };
-		234D2E101F9F475400DF3DD3 /* SKPropertyFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPropertyFinder.h; sourceTree = "<group>"; };
-		234D2E111F9F475400DF3DD3 /* SKPropertyFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPropertyFinder.m; sourceTree = "<group>"; };
-		234D2E131F9F475400DF3DD3 /* SKArrayMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKArrayMapping.h; sourceTree = "<group>"; };
-		234D2E141F9F475400DF3DD3 /* SKArrayMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKArrayMapping.m; sourceTree = "<group>"; };
-		234D2E151F9F475400DF3DD3 /* SKDynamicAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDynamicAttribute.h; sourceTree = "<group>"; };
-		234D2E161F9F475400DF3DD3 /* SKDynamicAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDynamicAttribute.m; sourceTree = "<group>"; };
-		234D2E171F9F475400DF3DD3 /* SKObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObjectMapping.h; sourceTree = "<group>"; };
-		234D2E181F9F475400DF3DD3 /* SKObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObjectMapping.m; sourceTree = "<group>"; };
-		234D2E191F9F475400DF3DD3 /* SKPropertyAggregator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPropertyAggregator.h; sourceTree = "<group>"; };
-		234D2E1A1F9F475400DF3DD3 /* SKPropertyAggregator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPropertyAggregator.m; sourceTree = "<group>"; };
-		234D2E1C1F9F475400DF3DD3 /* SKCustomInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCustomInitialize.h; sourceTree = "<group>"; };
-		234D2E1D1F9F475400DF3DD3 /* SKCustomInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCustomInitialize.m; sourceTree = "<group>"; };
-		234D2E1E1F9F475400DF3DD3 /* SKCustomParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCustomParser.h; sourceTree = "<group>"; };
-		234D2E1F1F9F475400DF3DD3 /* SKCustomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCustomParser.m; sourceTree = "<group>"; };
-		234D2E211F9F475400DF3DD3 /* SKAttributeSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAttributeSetter.h; sourceTree = "<group>"; };
-		234D2E221F9F475400DF3DD3 /* SKAttributeSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAttributeSetter.m; sourceTree = "<group>"; };
-		234D2E231F9F475400DF3DD3 /* SKDataObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDataObjectMapping.h; sourceTree = "<group>"; };
-		234D2E241F9F475400DF3DD3 /* SKDataObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDataObjectMapping.m; sourceTree = "<group>"; };
-		234D2E251F9F475400DF3DD3 /* SKParserConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKParserConfiguration.h; sourceTree = "<group>"; };
-		234D2E261F9F475400DF3DD3 /* SKParserConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKParserConfiguration.m; sourceTree = "<group>"; };
-		234D2E271F9F475400DF3DD3 /* SoapKitMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapKitMapping.h; sourceTree = "<group>"; };
-		234D2E291F9F475400DF3DD3 /* SKDictionaryRearranger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDictionaryRearranger.h; sourceTree = "<group>"; };
-		234D2E2A1F9F475400DF3DD3 /* SKDictionaryRearranger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDictionaryRearranger.m; sourceTree = "<group>"; };
-		234D2E2B1F9F475400DF3DD3 /* SKReferenceKeyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKReferenceKeyParser.h; sourceTree = "<group>"; };
-		234D2E2C1F9F475400DF3DD3 /* SKReferenceKeyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKReferenceKeyParser.m; sourceTree = "<group>"; };
-		234D2E2E1F9F475400DF3DD3 /* SKData+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKData+Private.h"; sourceTree = "<group>"; };
-		234D2E2F1F9F475400DF3DD3 /* SKData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKData.h; sourceTree = "<group>"; };
-		234D2E301F9F475400DF3DD3 /* SKData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKData.m; sourceTree = "<group>"; };
-		234D2E311F9F475400DF3DD3 /* SKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRequest.h; sourceTree = "<group>"; };
-		234D2E321F9F475400DF3DD3 /* SKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRequest.m; sourceTree = "<group>"; };
-		234D2E331F9F475400DF3DD3 /* SKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKService.h; sourceTree = "<group>"; };
-		234D2E341F9F475400DF3DD3 /* SKService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKService.m; sourceTree = "<group>"; };
-		234D2E351F9F475400DF3DD3 /* SoapKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoapKit-Prefix.pch"; sourceTree = "<group>"; };
-		234D2E361F9F475400DF3DD3 /* SoapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapKit.h; sourceTree = "<group>"; };
-		234D2E381F9F475400DF3DD3 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
-		234D2E391F9F475400DF3DD3 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		234D2E501F9F49A300DF3DD3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		235542C81FA2917900D4C0CA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		235542C91FA2917900D4C0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		235542CB1FA2917900D4C0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		235542CD1FA2917900D4C0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		235542D01FA2917900D4C0CA /* Faturah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faturah.h; sourceTree = "<group>"; };
+		235542D11FA2917900D4C0CA /* FaturahOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahOrder.h; sourceTree = "<group>"; };
+		235542D21FA2917900D4C0CA /* FaturahOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahOrder.m; sourceTree = "<group>"; };
+		235542D31FA2917900D4C0CA /* FaturahOrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahOrderItem.h; sourceTree = "<group>"; };
+		235542D41FA2917900D4C0CA /* FaturahOrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahOrderItem.m; sourceTree = "<group>"; };
+		235542D51FA2917900D4C0CA /* FaturahTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahTransaction.h; sourceTree = "<group>"; };
+		235542D61FA2917900D4C0CA /* FaturahTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahTransaction.m; sourceTree = "<group>"; };
+		235542D71FA2917900D4C0CA /* FaturahTransactionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahTransactionManager.h; sourceTree = "<group>"; };
+		235542D81FA2917900D4C0CA /* FaturahTransactionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahTransactionManager.m; sourceTree = "<group>"; };
+		235542D91FA2917900D4C0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235542DD1FA2917900D4C0CA /* SKGenericConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGenericConverter.h; sourceTree = "<group>"; };
+		235542DE1FA2917900D4C0CA /* SKGenericConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKGenericConverter.m; sourceTree = "<group>"; };
+		235542DF1FA2917900D4C0CA /* SKNSArrayConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSArrayConverter.h; sourceTree = "<group>"; };
+		235542E01FA2917900D4C0CA /* SKNSArrayConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSArrayConverter.m; sourceTree = "<group>"; };
+		235542E11FA2917900D4C0CA /* SKNSDateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSDateConverter.h; sourceTree = "<group>"; };
+		235542E21FA2917900D4C0CA /* SKNSDateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSDateConverter.m; sourceTree = "<group>"; };
+		235542E31FA2917900D4C0CA /* SKNSSetConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSSetConverter.h; sourceTree = "<group>"; };
+		235542E41FA2917900D4C0CA /* SKNSSetConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSSetConverter.m; sourceTree = "<group>"; };
+		235542E51FA2917900D4C0CA /* SKNSURLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNSURLConverter.h; sourceTree = "<group>"; };
+		235542E61FA2917900D4C0CA /* SKNSURLConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNSURLConverter.m; sourceTree = "<group>"; };
+		235542E71FA2917900D4C0CA /* SKSimpleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSimpleConverter.h; sourceTree = "<group>"; };
+		235542E81FA2917900D4C0CA /* SKSimpleConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSimpleConverter.m; sourceTree = "<group>"; };
+		235542E91FA2917900D4C0CA /* SKValueConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKValueConverter.h; sourceTree = "<group>"; };
+		235542EB1FA2917900D4C0CA /* SKPropertyFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPropertyFinder.h; sourceTree = "<group>"; };
+		235542EC1FA2917900D4C0CA /* SKPropertyFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPropertyFinder.m; sourceTree = "<group>"; };
+		235542EE1FA2917900D4C0CA /* SKArrayMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKArrayMapping.h; sourceTree = "<group>"; };
+		235542EF1FA2917900D4C0CA /* SKArrayMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKArrayMapping.m; sourceTree = "<group>"; };
+		235542F01FA2917900D4C0CA /* SKDynamicAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDynamicAttribute.h; sourceTree = "<group>"; };
+		235542F11FA2917900D4C0CA /* SKDynamicAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDynamicAttribute.m; sourceTree = "<group>"; };
+		235542F21FA2917900D4C0CA /* SKObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKObjectMapping.h; sourceTree = "<group>"; };
+		235542F31FA2917900D4C0CA /* SKObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKObjectMapping.m; sourceTree = "<group>"; };
+		235542F41FA2917900D4C0CA /* SKPropertyAggregator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPropertyAggregator.h; sourceTree = "<group>"; };
+		235542F51FA2917900D4C0CA /* SKPropertyAggregator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPropertyAggregator.m; sourceTree = "<group>"; };
+		235542F71FA2917900D4C0CA /* SKCustomInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCustomInitialize.h; sourceTree = "<group>"; };
+		235542F81FA2917900D4C0CA /* SKCustomInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCustomInitialize.m; sourceTree = "<group>"; };
+		235542F91FA2917900D4C0CA /* SKCustomParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCustomParser.h; sourceTree = "<group>"; };
+		235542FA1FA2917900D4C0CA /* SKCustomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCustomParser.m; sourceTree = "<group>"; };
+		235542FC1FA2917900D4C0CA /* SKAttributeSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAttributeSetter.h; sourceTree = "<group>"; };
+		235542FD1FA2917900D4C0CA /* SKAttributeSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAttributeSetter.m; sourceTree = "<group>"; };
+		235542FE1FA2917900D4C0CA /* SKDataObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDataObjectMapping.h; sourceTree = "<group>"; };
+		235542FF1FA2917900D4C0CA /* SKDataObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDataObjectMapping.m; sourceTree = "<group>"; };
+		235543001FA2917900D4C0CA /* SKParserConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKParserConfiguration.h; sourceTree = "<group>"; };
+		235543011FA2917900D4C0CA /* SKParserConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKParserConfiguration.m; sourceTree = "<group>"; };
+		235543021FA2917900D4C0CA /* SoapKitMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapKitMapping.h; sourceTree = "<group>"; };
+		235543041FA2917900D4C0CA /* SKDictionaryRearranger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDictionaryRearranger.h; sourceTree = "<group>"; };
+		235543051FA2917900D4C0CA /* SKDictionaryRearranger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDictionaryRearranger.m; sourceTree = "<group>"; };
+		235543061FA2917900D4C0CA /* SKReferenceKeyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKReferenceKeyParser.h; sourceTree = "<group>"; };
+		235543071FA2917900D4C0CA /* SKReferenceKeyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKReferenceKeyParser.m; sourceTree = "<group>"; };
+		235543091FA2917900D4C0CA /* SKData+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKData+Private.h"; sourceTree = "<group>"; };
+		2355430A1FA2917900D4C0CA /* SKData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKData.h; sourceTree = "<group>"; };
+		2355430B1FA2917900D4C0CA /* SKData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKData.m; sourceTree = "<group>"; };
+		2355430C1FA2917900D4C0CA /* SKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRequest.h; sourceTree = "<group>"; };
+		2355430D1FA2917900D4C0CA /* SKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRequest.m; sourceTree = "<group>"; };
+		2355430E1FA2917900D4C0CA /* SKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKService.h; sourceTree = "<group>"; };
+		2355430F1FA2917900D4C0CA /* SKService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKService.m; sourceTree = "<group>"; };
+		235543101FA2917900D4C0CA /* SoapKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoapKit-Prefix.pch"; sourceTree = "<group>"; };
+		235543111FA2917900D4C0CA /* SoapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapKit.h; sourceTree = "<group>"; };
+		235543131FA2917900D4C0CA /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		235543141FA2917900D4C0CA /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		235543161FA2917900D4C0CA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		235543381FA291D200D4C0CA /* Faturah-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Faturah-Bridging-Header.h"; sourceTree = "<group>"; };
 		23F55BF11F9F449900503410 /* Faturah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faturah.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F55BF41F9F449900503410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23F55BF61F9F449900503410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		23F55BF91F9F449900503410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		23F55BFB1F9F449900503410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		23F55BFE1F9F449900503410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		23F55C001F9F449900503410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23F55C681F9F44F700503410 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
+		781F39EC5F36577753ED78AD /* Pods_Faturah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faturah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C6BDEEC0BE92C356827E0C /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
+		802830E31A74A28B5FA699A5 /* Pods-Faturah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faturah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faturah/Pods-Faturah.debug.xcconfig"; sourceTree = "<group>"; };
 		90C3A0DEDF2D9AE99A8416C4 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		A7E787C838226DCE987EBC5C /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94E0C50EC3859D06C79570C /* Pods-Faturah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faturah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faturah/Pods-Faturah.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,161 +123,177 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				771C536F899F79514174D70D /* Pods_test.framework in Frameworks */,
+				C901D1212EC0B366572AE4F7 /* Pods_Faturah.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		234D2DE61F9F466100DF3DD3 /* Faturah */ = {
+		235542C71FA2917900D4C0CA /* Faturah */ = {
 			isa = PBXGroup;
 			children = (
-				234D2DE71F9F466100DF3DD3 /* Classes */,
+				235542C81FA2917900D4C0CA /* AppDelegate.swift */,
+				235542C91FA2917900D4C0CA /* Assets.xcassets */,
+				235542CA1FA2917900D4C0CA /* LaunchScreen.storyboard */,
+				235542CC1FA2917900D4C0CA /* Main.storyboard */,
+				235542CE1FA2917900D4C0CA /* Faturah */,
+				235542D91FA2917900D4C0CA /* Info.plist */,
+				235542DA1FA2917900D4C0CA /* SoapKit */,
+				235543381FA291D200D4C0CA /* Faturah-Bridging-Header.h */,
+				235543161FA2917900D4C0CA /* ViewController.swift */,
 			);
 			path = Faturah;
 			sourceTree = "<group>";
 		};
-		234D2DE71F9F466100DF3DD3 /* Classes */ = {
+		235542CE1FA2917900D4C0CA /* Faturah */ = {
 			isa = PBXGroup;
 			children = (
-				234D2DE81F9F466100DF3DD3 /* Faturah.h */,
-				234D2DE91F9F466100DF3DD3 /* FaturahOrder.h */,
-				234D2DEA1F9F466100DF3DD3 /* FaturahOrder.m */,
-				234D2DEB1F9F466100DF3DD3 /* FaturahOrderItem.h */,
-				234D2DEC1F9F466100DF3DD3 /* FaturahOrderItem.m */,
-				234D2DED1F9F466100DF3DD3 /* FaturahTransaction.h */,
-				234D2DEE1F9F466100DF3DD3 /* FaturahTransaction.m */,
-				234D2DEF1F9F466100DF3DD3 /* FaturahTransactionManager.h */,
-				234D2DF01F9F466100DF3DD3 /* FaturahTransactionManager.m */,
+				235542CF1FA2917900D4C0CA /* Classes */,
+			);
+			path = Faturah;
+			sourceTree = "<group>";
+		};
+		235542CF1FA2917900D4C0CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				235542D01FA2917900D4C0CA /* Faturah.h */,
+				235542D11FA2917900D4C0CA /* FaturahOrder.h */,
+				235542D21FA2917900D4C0CA /* FaturahOrder.m */,
+				235542D31FA2917900D4C0CA /* FaturahOrderItem.h */,
+				235542D41FA2917900D4C0CA /* FaturahOrderItem.m */,
+				235542D51FA2917900D4C0CA /* FaturahTransaction.h */,
+				235542D61FA2917900D4C0CA /* FaturahTransaction.m */,
+				235542D71FA2917900D4C0CA /* FaturahTransactionManager.h */,
+				235542D81FA2917900D4C0CA /* FaturahTransactionManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		234D2DFF1F9F475400DF3DD3 /* SoapKit */ = {
+		235542DA1FA2917900D4C0CA /* SoapKit */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E001F9F475400DF3DD3 /* Mapping */,
-				234D2E2D1F9F475400DF3DD3 /* Soap */,
-				234D2E351F9F475400DF3DD3 /* SoapKit-Prefix.pch */,
-				234D2E361F9F475400DF3DD3 /* SoapKit.h */,
-				234D2E371F9F475400DF3DD3 /* Util */,
+				235542DB1FA2917900D4C0CA /* Mapping */,
+				235543081FA2917900D4C0CA /* Soap */,
+				235543101FA2917900D4C0CA /* SoapKit-Prefix.pch */,
+				235543111FA2917900D4C0CA /* SoapKit.h */,
+				235543121FA2917900D4C0CA /* Util */,
 			);
 			path = SoapKit;
 			sourceTree = "<group>";
 		};
-		234D2E001F9F475400DF3DD3 /* Mapping */ = {
+		235542DB1FA2917900D4C0CA /* Mapping */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E011F9F475400DF3DD3 /* Converter */,
-				234D2E0F1F9F475400DF3DD3 /* Finder */,
-				234D2E121F9F475400DF3DD3 /* Mapper */,
-				234D2E1B1F9F475400DF3DD3 /* Object */,
-				234D2E201F9F475400DF3DD3 /* Setter */,
-				234D2E231F9F475400DF3DD3 /* SKDataObjectMapping.h */,
-				234D2E241F9F475400DF3DD3 /* SKDataObjectMapping.m */,
-				234D2E251F9F475400DF3DD3 /* SKParserConfiguration.h */,
-				234D2E261F9F475400DF3DD3 /* SKParserConfiguration.m */,
-				234D2E271F9F475400DF3DD3 /* SoapKitMapping.h */,
-				234D2E281F9F475400DF3DD3 /* Util */,
+				235542DC1FA2917900D4C0CA /* Converter */,
+				235542EA1FA2917900D4C0CA /* Finder */,
+				235542ED1FA2917900D4C0CA /* Mapper */,
+				235542F61FA2917900D4C0CA /* Object */,
+				235542FB1FA2917900D4C0CA /* Setter */,
+				235542FE1FA2917900D4C0CA /* SKDataObjectMapping.h */,
+				235542FF1FA2917900D4C0CA /* SKDataObjectMapping.m */,
+				235543001FA2917900D4C0CA /* SKParserConfiguration.h */,
+				235543011FA2917900D4C0CA /* SKParserConfiguration.m */,
+				235543021FA2917900D4C0CA /* SoapKitMapping.h */,
+				235543031FA2917900D4C0CA /* Util */,
 			);
 			path = Mapping;
 			sourceTree = "<group>";
 		};
-		234D2E011F9F475400DF3DD3 /* Converter */ = {
+		235542DC1FA2917900D4C0CA /* Converter */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E021F9F475400DF3DD3 /* SKGenericConverter.h */,
-				234D2E031F9F475400DF3DD3 /* SKGenericConverter.m */,
-				234D2E041F9F475400DF3DD3 /* SKNSArrayConverter.h */,
-				234D2E051F9F475400DF3DD3 /* SKNSArrayConverter.m */,
-				234D2E061F9F475400DF3DD3 /* SKNSDateConverter.h */,
-				234D2E071F9F475400DF3DD3 /* SKNSDateConverter.m */,
-				234D2E081F9F475400DF3DD3 /* SKNSSetConverter.h */,
-				234D2E091F9F475400DF3DD3 /* SKNSSetConverter.m */,
-				234D2E0A1F9F475400DF3DD3 /* SKNSURLConverter.h */,
-				234D2E0B1F9F475400DF3DD3 /* SKNSURLConverter.m */,
-				234D2E0C1F9F475400DF3DD3 /* SKSimpleConverter.h */,
-				234D2E0D1F9F475400DF3DD3 /* SKSimpleConverter.m */,
-				234D2E0E1F9F475400DF3DD3 /* SKValueConverter.h */,
+				235542DD1FA2917900D4C0CA /* SKGenericConverter.h */,
+				235542DE1FA2917900D4C0CA /* SKGenericConverter.m */,
+				235542DF1FA2917900D4C0CA /* SKNSArrayConverter.h */,
+				235542E01FA2917900D4C0CA /* SKNSArrayConverter.m */,
+				235542E11FA2917900D4C0CA /* SKNSDateConverter.h */,
+				235542E21FA2917900D4C0CA /* SKNSDateConverter.m */,
+				235542E31FA2917900D4C0CA /* SKNSSetConverter.h */,
+				235542E41FA2917900D4C0CA /* SKNSSetConverter.m */,
+				235542E51FA2917900D4C0CA /* SKNSURLConverter.h */,
+				235542E61FA2917900D4C0CA /* SKNSURLConverter.m */,
+				235542E71FA2917900D4C0CA /* SKSimpleConverter.h */,
+				235542E81FA2917900D4C0CA /* SKSimpleConverter.m */,
+				235542E91FA2917900D4C0CA /* SKValueConverter.h */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
 		};
-		234D2E0F1F9F475400DF3DD3 /* Finder */ = {
+		235542EA1FA2917900D4C0CA /* Finder */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E101F9F475400DF3DD3 /* SKPropertyFinder.h */,
-				234D2E111F9F475400DF3DD3 /* SKPropertyFinder.m */,
+				235542EB1FA2917900D4C0CA /* SKPropertyFinder.h */,
+				235542EC1FA2917900D4C0CA /* SKPropertyFinder.m */,
 			);
 			path = Finder;
 			sourceTree = "<group>";
 		};
-		234D2E121F9F475400DF3DD3 /* Mapper */ = {
+		235542ED1FA2917900D4C0CA /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E131F9F475400DF3DD3 /* SKArrayMapping.h */,
-				234D2E141F9F475400DF3DD3 /* SKArrayMapping.m */,
-				234D2E151F9F475400DF3DD3 /* SKDynamicAttribute.h */,
-				234D2E161F9F475400DF3DD3 /* SKDynamicAttribute.m */,
-				234D2E171F9F475400DF3DD3 /* SKObjectMapping.h */,
-				234D2E181F9F475400DF3DD3 /* SKObjectMapping.m */,
-				234D2E191F9F475400DF3DD3 /* SKPropertyAggregator.h */,
-				234D2E1A1F9F475400DF3DD3 /* SKPropertyAggregator.m */,
+				235542EE1FA2917900D4C0CA /* SKArrayMapping.h */,
+				235542EF1FA2917900D4C0CA /* SKArrayMapping.m */,
+				235542F01FA2917900D4C0CA /* SKDynamicAttribute.h */,
+				235542F11FA2917900D4C0CA /* SKDynamicAttribute.m */,
+				235542F21FA2917900D4C0CA /* SKObjectMapping.h */,
+				235542F31FA2917900D4C0CA /* SKObjectMapping.m */,
+				235542F41FA2917900D4C0CA /* SKPropertyAggregator.h */,
+				235542F51FA2917900D4C0CA /* SKPropertyAggregator.m */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
 		};
-		234D2E1B1F9F475400DF3DD3 /* Object */ = {
+		235542F61FA2917900D4C0CA /* Object */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E1C1F9F475400DF3DD3 /* SKCustomInitialize.h */,
-				234D2E1D1F9F475400DF3DD3 /* SKCustomInitialize.m */,
-				234D2E1E1F9F475400DF3DD3 /* SKCustomParser.h */,
-				234D2E1F1F9F475400DF3DD3 /* SKCustomParser.m */,
+				235542F71FA2917900D4C0CA /* SKCustomInitialize.h */,
+				235542F81FA2917900D4C0CA /* SKCustomInitialize.m */,
+				235542F91FA2917900D4C0CA /* SKCustomParser.h */,
+				235542FA1FA2917900D4C0CA /* SKCustomParser.m */,
 			);
 			path = Object;
 			sourceTree = "<group>";
 		};
-		234D2E201F9F475400DF3DD3 /* Setter */ = {
+		235542FB1FA2917900D4C0CA /* Setter */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E211F9F475400DF3DD3 /* SKAttributeSetter.h */,
-				234D2E221F9F475400DF3DD3 /* SKAttributeSetter.m */,
+				235542FC1FA2917900D4C0CA /* SKAttributeSetter.h */,
+				235542FD1FA2917900D4C0CA /* SKAttributeSetter.m */,
 			);
 			path = Setter;
 			sourceTree = "<group>";
 		};
-		234D2E281F9F475400DF3DD3 /* Util */ = {
+		235543031FA2917900D4C0CA /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E291F9F475400DF3DD3 /* SKDictionaryRearranger.h */,
-				234D2E2A1F9F475400DF3DD3 /* SKDictionaryRearranger.m */,
-				234D2E2B1F9F475400DF3DD3 /* SKReferenceKeyParser.h */,
-				234D2E2C1F9F475400DF3DD3 /* SKReferenceKeyParser.m */,
+				235543041FA2917900D4C0CA /* SKDictionaryRearranger.h */,
+				235543051FA2917900D4C0CA /* SKDictionaryRearranger.m */,
+				235543061FA2917900D4C0CA /* SKReferenceKeyParser.h */,
+				235543071FA2917900D4C0CA /* SKReferenceKeyParser.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		234D2E2D1F9F475400DF3DD3 /* Soap */ = {
+		235543081FA2917900D4C0CA /* Soap */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E2E1F9F475400DF3DD3 /* SKData+Private.h */,
-				234D2E2F1F9F475400DF3DD3 /* SKData.h */,
-				234D2E301F9F475400DF3DD3 /* SKData.m */,
-				234D2E311F9F475400DF3DD3 /* SKRequest.h */,
-				234D2E321F9F475400DF3DD3 /* SKRequest.m */,
-				234D2E331F9F475400DF3DD3 /* SKService.h */,
-				234D2E341F9F475400DF3DD3 /* SKService.m */,
+				235543091FA2917900D4C0CA /* SKData+Private.h */,
+				2355430A1FA2917900D4C0CA /* SKData.h */,
+				2355430B1FA2917900D4C0CA /* SKData.m */,
+				2355430C1FA2917900D4C0CA /* SKRequest.h */,
+				2355430D1FA2917900D4C0CA /* SKRequest.m */,
+				2355430E1FA2917900D4C0CA /* SKService.h */,
+				2355430F1FA2917900D4C0CA /* SKService.m */,
 			);
 			path = Soap;
 			sourceTree = "<group>";
 		};
-		234D2E371F9F475400DF3DD3 /* Util */ = {
+		235543121FA2917900D4C0CA /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				234D2E381F9F475400DF3DD3 /* GDataXMLNode.h */,
-				234D2E391F9F475400DF3DD3 /* GDataXMLNode.m */,
+				235543131FA2917900D4C0CA /* GDataXMLNode.h */,
+				235543141FA2917900D4C0CA /* GDataXMLNode.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -281,7 +301,7 @@
 		23F55BE81F9F449900503410 = {
 			isa = PBXGroup;
 			children = (
-				23F55BF31F9F449900503410 /* test */,
+				235542C71FA2917900D4C0CA /* Faturah */,
 				23F55BF21F9F449900503410 /* Products */,
 				A51358D1ADAC4F4186D76E13 /* Pods */,
 				98E1121F372EA42AA79DF615 /* Frameworks */,
@@ -296,27 +316,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23F55BF31F9F449900503410 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				234D2DFF1F9F475400DF3DD3 /* SoapKit */,
-				234D2DE61F9F466100DF3DD3 /* Faturah */,
-				23F55BF41F9F449900503410 /* AppDelegate.swift */,
-				23F55BF61F9F449900503410 /* ViewController.swift */,
-				23F55BF81F9F449900503410 /* Main.storyboard */,
-				23F55C681F9F44F700503410 /* test-Bridging-Header.h */,
-				23F55BFB1F9F449900503410 /* Assets.xcassets */,
-				23F55BFD1F9F449900503410 /* LaunchScreen.storyboard */,
-				23F55C001F9F449900503410 /* Info.plist */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
 		98E1121F372EA42AA79DF615 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				234D2E501F9F49A300DF3DD3 /* libxml2.tbd */,
 				A7E787C838226DCE987EBC5C /* Pods_test.framework */,
+				781F39EC5F36577753ED78AD /* Pods_Faturah.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -326,6 +331,8 @@
 			children = (
 				90C3A0DEDF2D9AE99A8416C4 /* Pods-test.debug.xcconfig */,
 				79C6BDEEC0BE92C356827E0C /* Pods-test.release.xcconfig */,
+				802830E31A74A28B5FA699A5 /* Pods-Faturah.debug.xcconfig */,
+				C94E0C50EC3859D06C79570C /* Pods-Faturah.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -365,6 +372,7 @@
 				TargetAttributes = {
 					23F55BF01F9F449900503410 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TQ6HC9TYKK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -392,9 +400,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F55BFF1F9F449900503410 /* LaunchScreen.storyboard in Resources */,
-				23F55BFC1F9F449900503410 /* Assets.xcassets in Resources */,
-				23F55BFA1F9F449900503410 /* Main.storyboard in Resources */,
+				2355431F1FA2917900D4C0CA /* Info.plist in Resources */,
+				2355431A1FA2917900D4C0CA /* Main.storyboard in Resources */,
+				235543181FA2917900D4C0CA /* Assets.xcassets in Resources */,
+				235543191FA2917900D4C0CA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +422,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faturah/Pods-Faturah-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E3897FEC86B7CDE3FD7F3626 /* [CP] Embed Pods Frameworks */ = {
@@ -428,7 +437,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faturah/Pods-Faturah-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECE91A1A2D82B364C02E28E8 /* [CP] Check Pods Manifest.lock */ = {
@@ -453,54 +462,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234D2E3C1F9F475400DF3DD3 /* SKNSDateConverter.m in Sources */,
-				234D2E4F1F9F475400DF3DD3 /* GDataXMLNode.m in Sources */,
-				234D2E481F9F475400DF3DD3 /* SKDataObjectMapping.m in Sources */,
-				234D2E421F9F475400DF3DD3 /* SKDynamicAttribute.m in Sources */,
-				234D2DF41F9F466100DF3DD3 /* FaturahTransactionManager.m in Sources */,
-				234D2E3D1F9F475400DF3DD3 /* SKNSSetConverter.m in Sources */,
-				234D2E451F9F475400DF3DD3 /* SKCustomInitialize.m in Sources */,
-				234D2E401F9F475400DF3DD3 /* SKPropertyFinder.m in Sources */,
-				234D2E411F9F475400DF3DD3 /* SKArrayMapping.m in Sources */,
-				234D2E4E1F9F475400DF3DD3 /* SKService.m in Sources */,
-				234D2E4C1F9F475400DF3DD3 /* SKData.m in Sources */,
-				234D2E461F9F475400DF3DD3 /* SKCustomParser.m in Sources */,
-				234D2E491F9F475400DF3DD3 /* SKParserConfiguration.m in Sources */,
-				234D2E3A1F9F475400DF3DD3 /* SKGenericConverter.m in Sources */,
-				234D2DF31F9F466100DF3DD3 /* FaturahTransaction.m in Sources */,
-				234D2E3E1F9F475400DF3DD3 /* SKNSURLConverter.m in Sources */,
-				23F55BF71F9F449900503410 /* ViewController.swift in Sources */,
-				234D2DF11F9F466100DF3DD3 /* FaturahOrder.m in Sources */,
-				234D2E3B1F9F475400DF3DD3 /* SKNSArrayConverter.m in Sources */,
-				234D2DF21F9F466100DF3DD3 /* FaturahOrderItem.m in Sources */,
-				234D2E431F9F475400DF3DD3 /* SKObjectMapping.m in Sources */,
-				234D2E3F1F9F475400DF3DD3 /* SKSimpleConverter.m in Sources */,
-				234D2E441F9F475400DF3DD3 /* SKPropertyAggregator.m in Sources */,
-				234D2E4B1F9F475400DF3DD3 /* SKReferenceKeyParser.m in Sources */,
-				234D2E4A1F9F475400DF3DD3 /* SKDictionaryRearranger.m in Sources */,
-				23F55BF51F9F449900503410 /* AppDelegate.swift in Sources */,
-				234D2E471F9F475400DF3DD3 /* SKAttributeSetter.m in Sources */,
-				234D2E4D1F9F475400DF3DD3 /* SKRequest.m in Sources */,
+				235543261FA2917900D4C0CA /* SKPropertyFinder.m in Sources */,
+				2355431D1FA2917900D4C0CA /* FaturahTransaction.m in Sources */,
+				235543301FA2917900D4C0CA /* SKDictionaryRearranger.m in Sources */,
+				235543321FA2917900D4C0CA /* SKData.m in Sources */,
+				235543291FA2917900D4C0CA /* SKObjectMapping.m in Sources */,
+				235543351FA2917900D4C0CA /* GDataXMLNode.m in Sources */,
+				2355432F1FA2917900D4C0CA /* SKParserConfiguration.m in Sources */,
+				235543211FA2917900D4C0CA /* SKNSArrayConverter.m in Sources */,
+				2355431E1FA2917900D4C0CA /* FaturahTransactionManager.m in Sources */,
+				2355432C1FA2917900D4C0CA /* SKCustomParser.m in Sources */,
+				235543341FA2917900D4C0CA /* SKService.m in Sources */,
+				235543221FA2917900D4C0CA /* SKNSDateConverter.m in Sources */,
+				2355432E1FA2917900D4C0CA /* SKDataObjectMapping.m in Sources */,
+				235543251FA2917900D4C0CA /* SKSimpleConverter.m in Sources */,
+				2355432A1FA2917900D4C0CA /* SKPropertyAggregator.m in Sources */,
+				2355432D1FA2917900D4C0CA /* SKAttributeSetter.m in Sources */,
+				2355432B1FA2917900D4C0CA /* SKCustomInitialize.m in Sources */,
+				235543201FA2917900D4C0CA /* SKGenericConverter.m in Sources */,
+				235543361FA2917900D4C0CA /* ViewController.swift in Sources */,
+				235543271FA2917900D4C0CA /* SKArrayMapping.m in Sources */,
+				235543241FA2917900D4C0CA /* SKNSURLConverter.m in Sources */,
+				2355431B1FA2917900D4C0CA /* FaturahOrder.m in Sources */,
+				235543171FA2917900D4C0CA /* AppDelegate.swift in Sources */,
+				235543231FA2917900D4C0CA /* SKNSSetConverter.m in Sources */,
+				235543311FA2917900D4C0CA /* SKReferenceKeyParser.m in Sources */,
+				235543281FA2917900D4C0CA /* SKDynamicAttribute.m in Sources */,
+				2355431C1FA2917900D4C0CA /* FaturahOrderItem.m in Sources */,
+				235543331FA2917900D4C0CA /* SKRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		23F55BF81F9F449900503410 /* Main.storyboard */ = {
+		235542CA1FA2917900D4C0CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				23F55BF91F9F449900503410 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		23F55BFD1F9F449900503410 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23F55BFE1F9F449900503410 /* Base */,
+				235542CB1FA2917900D4C0CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		235542CC1FA2917900D4C0CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235542CD1FA2917900D4C0CA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -547,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -592,7 +601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -603,11 +612,13 @@
 		};
 		23F55C041F9F449900503410 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90C3A0DEDF2D9AE99A8416C4 /* Pods-test.debug.xcconfig */;
+			baseConfigurationReference = 802830E31A74A28B5FA699A5 /* Pods-Faturah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQ6HC9TYKK;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Faturah/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -617,20 +628,22 @@
 					"\"MBProgressHUD\"",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MSZ.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSZ.ktest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Faturah/Faturah-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		23F55C051F9F449900503410 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79C6BDEEC0BE92C356827E0C /* Pods-test.release.xcconfig */;
+			baseConfigurationReference = C94E0C50EC3859D06C79570C /* Pods-Faturah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQ6HC9TYKK;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Faturah/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -640,9 +653,9 @@
 					"\"MBProgressHUD\"",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MSZ.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSZ.ktest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Faturah/Faturah-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
